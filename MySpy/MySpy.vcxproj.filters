@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主窗口类">
+      <UniqueIdentifier>{6590b4bf-2d4e-4b3b-9da7-04b718c8dcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="样式窗口类">
+      <UniqueIdentifier>{ed0399e2-4e8f-4ac7-ab47-c900df930014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="常规窗口类">
+      <UniqueIdentifier>{26600df3-c08c-4847-95d0-fb1e30cb392e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="类窗口">
+      <UniqueIdentifier>{1d801eae-b6c6-4501-ad25-c45b63b3f07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="菜单窗口">
+      <UniqueIdentifier>{b5f6bee2-986d-448a-9c4e-4e51d608882d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自定控件类">
+      <UniqueIdentifier>{692057e7-f6e0-4dd4-ae2a-6633a048dee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cwnd">
+      <UniqueIdentifier>{61b12bbd-2315-42f1-957e-7029e8d3b3e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MySpy.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MySpy.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MySpy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySpyDlg.h">
+      <Filter>主窗口类</Filter>
+    </ClInclude>
+    <ClInclude Include="Com.h">
+      <Filter>常规窗口类</Filter>
+    </ClInclude>
+    <ClInclude Include="Style.h">
+      <Filter>样式窗口类</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>类窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Mess.h">
+      <Filter>菜单窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPic.h">
+      <Filter>自定控件类</Filter>
+    </ClInclude>
+    <ClInclude Include="Wind.h">
+      <Filter>Cwnd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MySpy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySpyDlg.cpp">
+      <Filter>主窗口类</Filter>
+    </ClCompile>
+    <ClCompile Include="Com.cpp">
+      <Filter>常规窗口类</Filter>
+    </ClCompile>
+    <ClCompile Include="Style.cpp">
+      <Filter>样式窗口类</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>类窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Mess.cpp">
+      <Filter>菜单窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPic.cpp">
+      <Filter>自定控件类</Filter>
+    </ClCompile>
+    <ClCompile Include="Wind.cpp">
+      <Filter>Cwnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MySpy.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
